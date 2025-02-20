@@ -12,7 +12,7 @@
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "check-types": "tsc --noEmit",
-    "publish": "gh-pages -d dist"
+    "publish": "git subtree push --prefix dist origin page"
   },
   "engines": {
     "node": ">=22.0.0"
