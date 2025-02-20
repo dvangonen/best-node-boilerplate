@@ -5,13 +5,15 @@
   "module": "./dist/index.js",
   "type": "module",
   "scripts": {
+    "postbuild": "cp -r public/* dist",
     "build": "pkgroll --minify --clean-dist",
-    "prestart": "npm run build",
+    "prestart": "npm run build && cp .env dist",
     "start": "node --env-file=.env dist/index.js",
     "dev": "tsx --watch --env-file=.env.development src/index.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "check-types": "tsc --noEmit",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "engines": {
