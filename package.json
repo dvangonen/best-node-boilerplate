@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "best-node-boilerplate",
   "version": "1.0.0",
   "description": "",
   "module": "./dist/index.js",
