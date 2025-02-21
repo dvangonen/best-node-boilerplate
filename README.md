@@ -1,8 +1,11 @@
 # Best Node Boilerplate
 
-Kickstart your next project with minimal setup! A lightweight and easy-to-use Node.js boilerplate.
-Boost your Node.js development speed with this comprehensive boilerplate. Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
-![Preview](https://github.com/user-attachments/assets/459b86ea-ca49-42d4-8879-2e9875334736)
+Boost your Node.js development speed with this comprehensive boilerplate.
+
+
+![Preview](https://github.com/user-attachments/assets/588cc33c-d041-4091-8459-d8c48e0f883e)
+
+Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
 
 ## Features
 
