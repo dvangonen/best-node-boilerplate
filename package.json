@@ -12,9 +12,7 @@
     "dev": "tsx --watch --env-file=.env.development src/index.ts",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "check-types": "tsc --noEmit",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "check-types": "tsc --noEmit"
   },
   "engines": {
     "node": ">=22.0.0"
@@ -28,7 +26,6 @@
     "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-jest": "^28.11.0",
-    "gh-pages": "^6.3.0",
     "pkgroll": "^2.10.0",
     "prettier": "^3.5.1",
     "tsx": "^4.19.3",
