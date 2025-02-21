@@ -40,5 +40,3 @@ git push -f origin deploy
 rm -rf "$TEMP_DIR"
 
 echo "Deployment to the deploy branch completed successfully."
-
-# chmod +x deploy.sh

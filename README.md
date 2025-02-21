@@ -35,6 +35,17 @@ Boost your Node.js development speed with this comprehensive boilerplate. Everyt
 - `npm run lint`: Run ESLint.
 - `npm run format`: Run Prettier.
 
+## Deployment
+To deploy the project, you can use the provided `deploy.sh` script. This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
+
+### Steps to Deploy
+Run the `deploy.sh` script:
+
+```
+chmod +x deploy.sh
+./deploy.sh
+```
+
 ## License
 
 This project is licensed under the MIT License.
