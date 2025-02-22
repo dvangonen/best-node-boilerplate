@@ -2,7 +2,7 @@
 
 Boost your Node.js development speed with this comprehensive boilerplate.
 
-![Preview)](https://github.com/user-attachments/assets/b8c21170-844c-47fa-a73d-a2c408e5ccad)
+![Slide 4_3 - 2](https://github.com/user-attachments/assets/30998cee-906f-4559-8bb3-faedd9ccf56e)
 
 Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
 
