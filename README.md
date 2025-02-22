@@ -40,6 +40,7 @@ Everything you need for a smooth and efficient workflow is already set up: ESLin
 
 ## Deployment
 To deploy the project, you can use the provided `deploy.sh` script. This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
+Then you can `fetch` the content of `deploy` branch on your own server and just start it with `node`.
 
 ### Steps to Deploy
 Run the `deploy.sh` script:
