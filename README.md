@@ -1,6 +1,6 @@
 # Best Node Boilerplate
 
-Boost your Node.js development speed with this comprehensive boilerplate.
+Just start your next Node.js project in a seconds.
 
 ![Preview](https://github.com/user-attachments/assets/a3608e30-191d-49e7-a74d-63e3b34b6279)
 
