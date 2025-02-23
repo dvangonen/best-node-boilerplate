@@ -52,10 +52,16 @@ chmod +x deploy.sh
 
 This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
 
-2. Then you can `fetch` the content of `deploy` branch on your own server and just start it with `node` on youer server.
+2. Then you can `fetch` the content of `deploy` branch on your own server.
 
 ```
 git clone [url] -b [branch-name] --single-branch
+```
+
+3. Just start it with `node` on your server
+
+```
+npm start
 ```
 
 ## License
