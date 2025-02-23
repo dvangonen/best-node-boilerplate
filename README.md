@@ -38,9 +38,9 @@ Everything you need for a smooth and efficient workflow is already set up: ESLin
 - `npm run lint`: Run ESLint.
 - `npm run format`: Run Prettier.
 
-## Deployment (maybe I will change it to Dockerfile)
+## Deployment
 
-To deploy the project, you can use the provided `deploy.sh` script. 
+To deploy the project, you can use the provided `deploy.sh` script. Maybe I will change it to Dockerfile later.
 
 ### Steps to Deploy
 1. Run the `deploy.sh` script:
