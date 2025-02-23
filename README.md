@@ -45,7 +45,8 @@ To deploy the project, you can use the provided `deploy.sh` script.
 It is a very simple and easy-to-use approach. But maybe I will add a Dockerfile approach soon.
 
 ### Steps to Deploy
-1. Run the `deploy.sh` script:
+1. Run the `deploy.sh` script.
+
 This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
 
 ```
@@ -55,6 +56,7 @@ chmod +x deploy.sh
 
 
 2. Then you can `fetch` the content of `deploy` branch on your own server.
+
 This will download a pre-built and minified version of your code.
 
 ```
