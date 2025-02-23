@@ -2,10 +2,9 @@
 
 Just start your next Node.js project in a seconds.
 
-![Preview](https://github.com/user-attachments/assets/a3608e30-191d-49e7-a74d-63e3b34b6279)
-
-
 Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
+
+![Preview](https://github.com/user-attachments/assets/a3608e30-191d-49e7-a74d-63e3b34b6279)
 
 ## Features
 
