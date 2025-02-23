@@ -44,18 +44,19 @@ To deploy the project, you can use the provided `deploy.sh` script. Maybe I will
 
 ### Steps to Deploy
 1. Run the `deploy.sh` script:
+This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
 
 ```
 chmod +x deploy.sh
 ./deploy.sh
 ```
 
-This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
 
 2. Then you can `fetch` the content of `deploy` branch on your own server.
+This will download a pre-built and minified version of your code.
 
 ```
-git clone [url] -b [branch-name] --single-branch
+git clone [your-repo-url] -b deploy --single-branch
 ```
 
 3. Just start it with `node` on your server
