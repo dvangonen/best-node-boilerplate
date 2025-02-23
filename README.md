@@ -40,7 +40,9 @@ Everything you need for a smooth and efficient workflow is already set up: ESLin
 
 ## Deployment
 
-To deploy the project, you can use the provided `deploy.sh` script. Maybe I will change it to Dockerfile later.
+To deploy the project, you can use the provided `deploy.sh` script.
+
+It is a very simple and easy-to-use approach. But maybe I will add a Dockerfile approach soon.
 
 ### Steps to Deploy
 1. Run the `deploy.sh` script:
