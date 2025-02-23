@@ -38,16 +38,24 @@ Everything you need for a smooth and efficient workflow is already set up: ESLin
 - `npm run lint`: Run ESLint.
 - `npm run format`: Run Prettier.
 
-## Deployment
-To deploy the project, you can use the provided `deploy.sh` script. This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
-Then you can `fetch` the content of `deploy` branch on your own server and just start it with `node`.
+## Deployment (maybe I will change it to Dockerfile)
+
+To deploy the project, you can use the provided `deploy.sh` script. 
 
 ### Steps to Deploy
-Run the `deploy.sh` script:
+1. Run the `deploy.sh` script:
 
 ```
 chmod +x deploy.sh
 ./deploy.sh
+```
+
+This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
+
+2. Then you can `fetch` the content of `deploy` branch on your own server and just start it with `node` on youer server.
+
+```
+git clone [url] -b [branch-name] --single-branch
 ```
 
 ## License
