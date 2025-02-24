@@ -1,5 +1,8 @@
 # Best Node Boilerplate
 
+![t](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![tsc](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
+
 Just start your next Node.js project in a seconds.
 
 Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
