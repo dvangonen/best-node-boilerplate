@@ -7,8 +7,10 @@ await esbuild
 	.build({
 		entryPoints: ['src/index.ts'],
 		bundle: true,
+		platform: 'node',
 		outfile: 'dist/index.js',
 		minify: true,
 		treeShaking: true,
+		target: 'node22',
 	})
 	.catch(1);
