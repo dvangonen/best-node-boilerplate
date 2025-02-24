@@ -45,7 +45,8 @@ It is a very simple and easy-to-use approach. But maybe I will add a Dockerfile 
 ### Steps to Deploy
 1. Run the `deploy.sh` script.
 
-This script will build the project, copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
+This script will build the project using `esbuild`. So the output will be as tiny as possible.
+Then it copy the contents of the `dist` folder, and push it to the `deploy` branch of your repository.
 
 ```
 chmod +x deploy.sh
