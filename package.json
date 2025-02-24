@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "postbuild": "cp -r public/* dist",
-    "build": "pkgroll --minify --clean-dist",
+    "build": "node esbuild.config.mjs",
     "prestart": "npm run build && cp .env dist",
     "start": "node --env-file=.env dist/index.js",
     "dev": "tsx --watch --env-file=.env.development src/index.ts",
@@ -23,10 +23,10 @@
   "devDependencies": {
     "@eslint/js": "^9.20.0",
     "@types/node": "^22.13.4",
+    "esbuild": "^0.25.0",
     "eslint": "^9.20.1",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-jest": "^28.11.0",
-    "pkgroll": "^2.10.0",
     "prettier": "^3.5.1",
     "tsx": "^4.19.3",
     "typescript": "^5.7.3",

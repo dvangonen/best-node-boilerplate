@@ -1,14 +1,20 @@
 // @ts-check
 
-import eslint from '@eslint/js'
-import tseslint from 'typescript-eslint'
-import prettierConfig from 'eslint-config-prettier'
-import jestPlugin from 'eslint-plugin-jest'
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
+import prettierConfig from 'eslint-config-prettier';
+import jestPlugin from 'eslint-plugin-jest';
 
 export default tseslint.config(
 	{
 		// config with just ignores is the replacement for `.eslintignore`
-		ignores: ['build/**', 'dist/**', 'eslint.config.mjs', 'node_modules/**'],
+		ignores: [
+			'build/**',
+			'dist/**',
+			'eslint.config.mjs',
+			'esbuild.config.mjs',
+			'node_modules/**',
+		],
 	},
 	{
 		plugins: {
@@ -41,4 +47,4 @@ export default tseslint.config(
 	},
 	eslint.configs.recommended,
 	prettierConfig,
-)
+);
