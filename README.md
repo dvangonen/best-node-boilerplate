@@ -5,8 +5,6 @@
 
 Just start your next Node.js project in a seconds.
 
-Everything you need for a smooth and efficient workflow is already set up: ESLint, Prettier, TypeScript, debugging, and more.
-
 ## Features
 
 - **ESLint**: Linting for maintaining code quality.
