@@ -3,7 +3,7 @@
 ![t](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![tsc](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 
-Just start your next Node.js project in a seconds.
+Just start your Node.js project in a seconds.
 
 ## Features
 
